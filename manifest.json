@@ -1,0 +1,11 @@
+{
+  "name": "close youtube Ads",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["index.js"]
+    }
+  ]
+}
